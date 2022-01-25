@@ -17,8 +17,7 @@ class TestHubSpot(BaseTest):
     @pytest.mark.parametrize( 
                          "email",
                          [
-                             ("xyz@yopmail.com"),
-                             ("bsc-01@yopmail.com")
+                             ("xyz@yopmail.com")
                          ]
                          )
     def test_login(self,email):
